@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskHorizon 🌅</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        
+        <section class="task-input">
+            <input type="text" id="taskText" placeholder="Escribe una nueva tarea...">
+            <button id="addTask">Agregar</button>
+        </section>
+
+        
+        <section class="task-list">
+            <h2>Tareas Pendientes</h2>
+            <div class="task">
+                <span>Ejemplo de tarea</span>
+                <button class="complete-task">✔</button>
+                <button class="delete-task">✖</button>
+            </div>
+            
+        </section>
+
+        
+        <section class="completed-tasks">
+            <h2>Tareas Completadas</h2>
+            <div class="task completed">
+                <span>Ejemplo de tarea completada</span>
+                <button class="delete-task">✖</button>
+            </div>
+        </section>
+
+    </main>    
+
+    <script src="script.js"></script>
+</body>
+</html>

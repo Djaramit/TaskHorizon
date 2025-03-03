@@ -2,16 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: "Montserrat", serif;
 }
 
 body {
-    background: #f4f4f4;
+    background: #c6d0e8;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     padding: 20px;
+    position: relative;
+}
+
+header{
+    /*background-color: #939ddc;*/
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+
+.titulo{
+    font-family: "Montserrat", serif;
+    font-size: 100px;
+    
 }
 
 .container {
@@ -100,4 +118,17 @@ h2 {
 
 .task .delete-task:hover {
     color: #c0392b;
+}
+
+footer{
+    /*background-color: #939ddc;*/
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", serif;
+    font-size: 18px;
 }
